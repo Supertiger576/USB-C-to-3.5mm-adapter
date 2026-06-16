@@ -1,5 +1,8 @@
 # USB-C-to-3.5mm-adapter
-An adapter using a DAC that translates USB-C audio data to 3.5mm.  It takes in the digital USB-C sound data, and then uses the PCM2902 DAC to translate it into analog sound data that can be outputted through a 3.5mm headphone jack.  The PCM2902 DAC is wired following references from it's datasheet.  
+An adapter using a DAC that translates USB-C audio data to 3.5mm.  It takes in the digital USB-C sound data, and then uses the PCM2902 DAC to translate it into analog sound data that can be outputted through a 3.5mm headphone jack.  The PCM2902 DAC is wired following references from it's datasheet. 
+
+I wanted to make this project as it would be useful for being able to listen to music on the go, without having wireless ear buds.
+
 Made with KiCad
 
 Schematic:       
