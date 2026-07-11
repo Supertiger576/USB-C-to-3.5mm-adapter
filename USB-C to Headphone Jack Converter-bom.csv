@@ -1,7 +1,7 @@
 Name,Purpose,Quantity,Total Cost (USD),Link,Distributor
 "PCB","The PCB to put the other components on",1,2.00,"https://jlcpcb.com","JLCPCB"
 "1 uf capacitors","To connect VC... pins to GND like in the reference sheet.  I only need 6 but buying 10 is cheaper.",10,0.49,"https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B105KAFNNNE/3886724","Digikey"
-"15 pF capacitors ","Connecting to the crystal oscillator to handle load ",2,0.22,"https://www.digikey.com/en/products/detail/kemet/C0805C150J5GACTU/411110?s=N4IgTCBcDaIMIAYAcCCscCMqEClUHEBBOAFQFUACEAXQF8g","Digikey"
+"5.6 pF capacitors ","Connecting to the crystal oscillator to handle load ",2,0.22,"https://www.digikey.com/en/products/detail/yageo/CC0805CRNPO9BN5R6/5883902","Digikey"
 "10 uf capacitor","Capacitor to clear audio on L_out and R_out",2,0.60,"https://www.digikey.com/en/products/detail/rubycon/50YXJ10M5X11/3562914","Digikey"
 "12 MHz Crystal Oscillator","Stable timing on the USBC ",1,0.56,"https://www.digikey.com/en/products/detail/kyocera-avx/CX3225SB12000D0GZJC1/5995239","Digikey"
 "1M ohm resistor","Connected to the crystal oscillator ",1,0.10,"https://www.digikey.com/en/products/detail/yageo/MFR-25FBF52-1M/13714","Digikey"
