@@ -5195,7 +5195,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15pF"
+		(property "Value" "5.6pF"
 			(at 195.5801 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6232,7 +6232,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15pF"
+		(property "Value" "5.6pF"
 			(at 195.5801 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
