@@ -5,20 +5,21 @@ A straight-forward adapter using a DAC that translates USB-C audio data to 3.5mm
 I wanted to make this project as it would be useful for being able to listen to music on the go, without having wireless ear buds.
 
 # Schematic:       
-<img width="478" height="311" alt="image" src="https://github.com/user-attachments/assets/c489301b-c81c-4616-ae84-9a5738679234" />      
-      
+<img width="422" height="248" alt="image" src="https://github.com/user-attachments/assets/4ac4a1ba-c7aa-4609-bf3d-9b7e5535a95c" />
+
 # PCB:      
-<img width="720" height="347" alt="image" src="https://github.com/user-attachments/assets/0c03bfc6-2d72-40b3-8ab2-e6241ec7de19" />    
-   
+<img width="451" height="257" alt="image" src="https://github.com/user-attachments/assets/26b2810c-2e20-4495-891a-bd232c434a80" />
+
 # 3D Model:    
-<img width="598" height="284" alt="image" src="https://github.com/user-attachments/assets/9359bedd-0ad9-401b-bd7f-e1861f3ab530" />    
+<img width="530" height="256" alt="image" src="https://github.com/user-attachments/assets/5fcdb84c-6da7-4e54-9bdc-4b9926fdf4b4" />
+
 
 # Necessary Materials:
 |Name                     |Purpose                                                                                           |Quantity|Total Cost (USD)|Link                                                                                                                      |Distributor|
 |-------------------------|--------------------------------------------------------------------------------------------------|--------|----------------|--------------------------------------------------------------------------------------------------------------------------|-----------|
 |PCB                      |The PCB to put the other components on                                                            |1       |2.00            |https://jlcpcb.com                                                                                                        |JLCPCB     |
 |1 uf capacitors          |To connect VC... pins to GND like in the reference sheet.  I only need 6 but buying 10 is cheaper.|10      |0.49            |https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B105KAFNNNE/3886724                              |Digikey    |
-|15 pF capacitors         |Connecting to the crystal oscillator to handle load                                               |2       |0.22            |https://www.digikey.com/en/products/detail/kemet/C0805C150J5GACTU/411110?s=N4IgTCBcDaIMIAYAcCCscCMqEClUHEBBOAFQFUACEAXQF8g|Digikey    |
+|5.6 pF capacitors         |Connecting to the crystal oscillator to handle load                                               |2       |0.22            |https://www.digikey.com/en/products/detail/yageo/CC0805CRNPO9BN5R6/5883902|Digikey    |
 |10 uf capacitor          |Capacitor to clear audio on L_out and R_out                                                       |2       |0.60            |https://www.digikey.com/en/products/detail/rubycon/50YXJ10M5X11/3562914                                                   |Digikey    |
 |12 MHz Crystal Oscillator|Stable timing on the USBC                                                                         |1       |0.56            |https://www.digikey.com/en/products/detail/kyocera-avx/CX3225SB12000D0GZJC1/5995239                                       |Digikey    |
 |1M ohm resistor          |Connected to the crystal oscillator                                                               |1       |0.10            |https://www.digikey.com/en/products/detail/yageo/MFR-25FBF52-1M/13714                                                     |Digikey    |
